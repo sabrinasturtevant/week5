@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>My Band/Movie Page</title><!--rename this appropriately-->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <!--insert a link to the stylesheet provided in the root folder you downloaded-->
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+    <header>
+      <h1><!-- insert a headline for your favorite band or movie -->Holes</h1>
+      <!-- insert <img> element, link to the a small
+          version of the band/movie logo. You can either find an existing logo for the band/movie or create one of your own-->
+          <a href="https://lumiere-a.akamaihd.net/v1/images/open-uri20150608-27674-1wesvfs_76ba2016.png">
+            <img src="holes.header.jpeg" alt="Holes Movie Poster">
+          </a>
+
+    </header>
+
+    <main>
+      <article>
+        <!-- find a video you would like to embed from youtube. click 'share' beneath the video. select the 'embed' tab and copy/paste iframe code from youtube -->
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/DXu9yw0NVaU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        <h2><!--insert a tagline for your band/movie -->You've got to go dig those holes</h2>
+
+        <p><!--write a paragraph hyping your band/movie-->Holes is the motion picture for you and your entire family. Stanley Yelnates IV goes on a journey about friendship, destiny, and holes. Sparring the name, Caveman, Stanley has to try to fit in with the kids around him. Rattlesnakes and yellow spotted lizards have nothing on the real threat - the warden.</p>
+
+        <p>Click on the images below to find more information about the band/movie.</p>
+      </article>
+
+      <div class="further-info">
+
+        <!--insert an href within the link below that references the band/movie's actual website-->
+        <a href="https://movies.disney.com/holes">
+          <img><!-- insert appropriate images with srcsets and sizes.
+            create figure and fig caption elements to make an image caption that says 'About Us'-->
+
+            <img srcset="https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Fjoshweiss%2Ffiles%2F2019%2F04%2FMV5BODU0NTIwMjIwMF5BMl5BanBnXkFtZTcwNjI1NzEyNw%40%40._V1_SY1000_CR0014491000_AL_-1200x828.jpg 480w,
+             https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Fjoshweiss%2Ffiles%2F2019%2F04%2FMV5BODU0NTIwMjIwMF5BMl5BanBnXkFtZTcwNjI1NzEyNw%40%40._V1_SY1000_CR0014491000_AL_-1200x828.jpg 800w"
+     sizes="(max-width: 600px) 480px,
+            800px"
+     src="https://thumbor.forbes.com/thumbor/960x0/https%3A%2F%2Fblogs-images.forbes.com%2Fjoshweiss%2Ffiles%2F2019%2F04%2FMV5BODU0NTIwMjIwMF5BMl5BanBnXkFtZTcwNjI1NzEyNw%40%40._V1_SY1000_CR0014491000_AL_-1200x828.jpg" alt="Cast of Holes standing and laughing">
+        </a>
+
+        <!--insert an href within the link below that references a new html page you create in your root folder called tour.html or screens.html if you are creating a movie site. this new page should include, at a minimum, an HTML table that gives your band's tour dates and locations or locations and times where your movie is screening-->
+        <a href="screens.html">
+          <!-- insert appropriate images with srcsets and sizes.
+            create figure and fig caption elements to make an image caption that says 'About Us'-->
+            <figure>
+            <img srcset="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/05F3070EAA226969117A5610CA8DD5DF105E98D369190B9E32503469A8E26604/scale?aspectRatio=1.78&format=jpeg 480w,
+             https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/05F3070EAA226969117A5610CA8DD5DF105E98D369190B9E32503469A8E26604/scale?aspectRatio=1.78&format=jpeg 800w"
+     sizes="(max-width: 600px) 480px,
+            800px"
+     src="https://prod-ripcut-delivery.disney-plus.net/v1/variant/disney/05F3070EAA226969117A5610CA8DD5DF105E98D369190B9E32503469A8E26604/scale?aspectRatio=1.78&format=jpeg" alt="Xray glaring at Stanley standing in his hole">
+     <figcaption>About Us</figcaption>
+</figure>
+        </a>
+
+        <!--insert an href within the link below that references a new html page you create in your root folder called fans.html. this new page should include, at a minimum, an HTML form that would allow a user to enter their personal information to sign up for a fan club for your band or movie. Don't forget a Submit button! Note that these forms don't have to actually collect the information that is entered. This would require technology that is beyond the scope of this course-->
+        <a href="fans.html">
+          <!-- insert appropriate images with srcsets and sizes.
+            create figure and fig caption elements to make an image caption that says 'Join the fanclub!'-->
+            <figure>
+            <img srcset="https://mtv.mtvnimages.com/uri/mgid:ao:image:mtv.com:58185?quality=0.8&format=jpg 480w,
+             https://mtv.mtvnimages.com/uri/mgid:ao:image:mtv.com:58185?quality=0.8&format=jpg 800w"
+     sizes="(max-width: 600px) 480px,
+            800px"
+     src="https://mtv.mtvnimages.com/uri/mgid:ao:image:mtv.com:58185?quality=0.8&format=jpg" alt="Close Up of Stanley">
+     <figcaption>Join the Fan Club</figcaption>
+</figure>
+        </a>
+
+        <div class="clearfix"></div>
+      </div>
+
+      <div class="closing-image">
+        <picture>
+  <source media="(max-width: 799px)" srcset="warden.jpg">
+  <source media="(min-width: 800px)" srcset="warden.jpg">
+  <img src="warden.jpeg" alt="The warden with Mr. Sir and Dr. Pandinski on either side of her.">
+</picture>
+      </div>
+
+    </main>
+  </body>
+</html>
